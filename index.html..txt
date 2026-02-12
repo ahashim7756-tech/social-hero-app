@@ -1,0 +1,43 @@
+import React from 'react';
+
+export default function GCCShield() {
+  return (
+    <div style={{
+      backgroundColor: '#f0fdf4',
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      fontFamily: 'sans-serif',
+      padding: '20px',
+      direction: 'rtl'
+    }}>
+      <div style={{
+        backgroundColor: 'white',
+        padding: '40px',
+        borderRadius: '15px',
+        boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+        textAlign: 'center',
+        maxWidth: '600px'
+      }}>
+        <h1 style={{ color: '#166534', marginBottom: '20px' }}>🛡️ درع الامتثال الخليجي (GCC Shield)</h1>
+        <p style={{ color: '#374151', fontSize: '18px', lineHeight: '1.6' }}>
+          مرحباً بك في المنصة الرائدة لتقييم مخاطر الذكاء الاصطناعي في دول مجلس التعاون الخليجي. 
+          مشروعك الآن يعمل بنجاح على منصة Vercel.
+        </p>
+        
+        <div style={{
+          marginTop: '30px',
+          padding: '15px',
+          backgroundColor: '#dcfce7',
+          borderRadius: '8px',
+          color: '#14532d',
+          fontWeight: 'bold'
+        }}>
+          🟢 الحالة: الموقع متصل وقيد التشغيل الآمن
+        </div>
+      </div>
+    </div>
+  );
+}
