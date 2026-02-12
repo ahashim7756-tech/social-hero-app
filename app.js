@@ -70,3 +70,4 @@ fetch('missions.json')
     missions = data;
     loadMission(currentMissionIndex);
   });
+
