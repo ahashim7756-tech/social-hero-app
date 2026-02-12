@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Social Hero</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Hero</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1 id="game-title">🌍 Social Hero</h1>
-    <div id="language-toggle">
-      <button id="en-btn">🇺🇸 English</button>
-      <button id="ar-btn">🇸🇦 العربية</button>
-    </div>
-    <div id="rank">Global Social Rank: Novice</div>
-  </header>
+<header>
+  <h1 id="app-title">Social Hero</h1>
+  <div class="lang-toggle">
+    <button id="en-btn">🇺🇸 English</button>
+    <button id="ar-btn">🇸🇦 عربي</button>
+  </div>
+</header>
 
-  <main>
-    <div id="worlds">
-      <button class="world-btn" data-world="Home">🏠 Home</button>
-      <button class="world-btn" data-world="School">🏫 School</button>
-      <button class="world-btn" data-world="City">🌆 City</button>
-      <button class="world-btn" data-world="Fantasy">🧙 Fantasy</button>
-    </div>
+<main>
+  <div id="worlds">
+    <div class="world" data-world="Home">🏠 Home</div>
+    <div class="world" data-world="School">🏫 School</div>
+    <div class="world" data-world="City">🏙 City</div>
+    <div class="world" data-world="Fantasy">🪄 Fantasy</div>
+  </div>
 
-    <div id="mission-screen">
-      <div id="avatar">🤖</div>
-      <div id="mission-info">
-        <h2 id="mission-title"></h2>
-        <p id="mission-goal"></p>
-        <button id="push-talk">🎤 Push to Talk</button>
-      </div>
-      <div id="response"></div>
-      <div id="social-points">Social Points: 0</div>
-    </div>
-  </main>
+  <div id="mission-area">
+    <h2 id="mission-title">Select a world to start</h2>
+    <p id="mission-desc"></p>
+    <p id="character-name"></p>
+  </div>
 
-  <script src="app.js"></script>
+  <div id="player">
+    <div class="avatar">🙂</div>
+    <button id="push-to-talk">🎤 Push to Talk</button>
+  </div>
+
+  <div id="social-rank">Rank: Novice</div>
+</main>
+
+<script src="app.js"></script>
 </body>
 </html>
-
